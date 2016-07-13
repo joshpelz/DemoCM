@@ -4,6 +4,7 @@ execute 'download prototypel.js' do
   cwd 'srv/www/acrominedemo/current'
   group 'apache'
   command 'curl -sS https://ajax.googleapis.com/ajax/libs/prototype/1.7.3.0/prototype.js'
+end
 
 execute 'pull down composer' do
   cwd '/srv/www/acrominedemo/current'
